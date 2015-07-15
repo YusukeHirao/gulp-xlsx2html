@@ -22,11 +22,11 @@ describe('gulp-xlsx2html', function () {
 		
 		var counter = 0;
 		var results = [
-			'AMon Mar 02 2015 09:00:00 GMT+0900 (JST)あ',
-			'ITue Mar 03 2015 09:00:00 GMT+0900 (JST)い',
-			'UWed Mar 04 2015 09:00:00 GMT+0900 (JST)う',
-			'EThu Mar 05 2015 09:00:00 GMT+0900 (JST)え',
-			'OThu Mar 05 2015 09:00:00 GMT+0900 (JST)お'
+			'Aあ',
+			'Iい',
+			'Uう',
+			'Eえ',
+			'Oお'
 		];
 		
 		stream.on('data', function (newFile) {

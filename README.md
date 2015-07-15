@@ -1,4 +1,4 @@
-gulp-xlsx2html
+gulp-xlsx2html [![npm version](https://badge.fury.io/js/gulp-xlsx2html.svg)](http://badge.fury.io/js/gulp-xlsx2html) [![Build Status](https://travis-ci.org/YusukeHirao/gulp-xlsx2html.svg?branch=master)](https://travis-ci.org/YusukeHirao/gulp-xlsx2html)
 ===
 
 gulp-xlsx2html is [Gulp](https://github.com/gulpjs/gulp) extension to convert XLSX file to HTML in the pipeline.

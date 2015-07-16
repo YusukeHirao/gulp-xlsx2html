@@ -95,6 +95,13 @@ var gulpXlsx2html = function (tmplFilePath: string | ITmplSetDifined, options: {
 			
 			if (record.__FILE_PATH__) {
 				newPath = record.__FILE_PATH__;
+				newPath = newPath.replace(/[^a-z0-9@_\/-]/ig, '_');
+				if (/\/$/.test(newPath)) {
+					newPath += 'index';
+				}
+				if (!/\.html$/i.test(newPath)) {
+					newPath += '.html';
+				}
 			} else {
 				newPath = i + '.html';
 			}

@@ -1,0 +1,12 @@
+{
+        "version": "1.5.0-beta",
+        "compilerOptions": {
+                "module": "commonjs",
+                "target": "es5",
+                "noLib": true
+        },
+        "files":[
+                "/usr/local/lib/node_modules/typescript/bin/lib.es6.d.ts",
+                "./index.ts"
+        ]
+}

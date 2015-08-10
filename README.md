@@ -73,3 +73,24 @@ key|type|default|summary
 **type**|`number`|`1`|the row number of field type in XLSX file.
 **label**|`number`|`null`|the row number of label in XLSX file.
 **description**|`number`|`null`|the row number of description in XLSX file.
+
+## Contribution
+
+### Install
+
+```sh
+$ npm install
+$ dtsm install
+```
+
+### Compile
+
+```sh
+$ tsc index.ts --module commonjs
+```
+
+### Test
+
+```sh
+$ npm test
+```
